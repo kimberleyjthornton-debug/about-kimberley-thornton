@@ -1,0 +1,123 @@
+:root {
+  --primary-color: #181455;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin-top: 100px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+h2 {
+  font-size: 96px;
+}
+
+h3 {
+  font-size: 32px;
+  margin-top: 16px;
+  opacity: 0.8;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about-h1 {
+  font-size: 80px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 30px 20px;
+  text-decoration: none;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.secondary-link {
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 30px 20px;
+  text-decoration: none;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.yoga-link {
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 30px 20px;
+  text-decoration: none;
+  background: #5a2639;
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.weather-link {
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 30px 20px;
+  text-decoration: none;
+  background: #ff2200;
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.fitness-link {
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 30px 20px;
+  text-decoration: none;
+  background: #152032;
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
