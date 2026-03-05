@@ -104,16 +104,6 @@ h3 {
   color: white;
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
-.about-paragraphs {
-  margin: 30px 0;
-}
-
 .about-paragraphs p {
   margin: 10px;
 }
@@ -128,4 +118,31 @@ h3 {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .greeting-header {
+    font-size: 32px;
+  }
+  .name-header {
+    font-size: 48px;
+  }
+  .role-header {
+    font-size: 20px;
+  }
+  .app-headings {
+    font-size: 32px;
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .yoga-link,
+  .weather-link,
+  .fitness-link {
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
 }
